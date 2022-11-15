@@ -1,0 +1,147 @@
+*{
+   padding: 0PX;
+   margin: 0PX;
+}
+body{
+     font-family: serif;
+     font-size: 14px;
+     line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+.green{
+	width: 600px;
+	height: 350px;
+	background:green;
+	position: relative;
+}
+.red{
+   width: 180px;
+	height: 180px;
+	background: red;
+   border-radius: 100%;
+   position: absolute;
+   top: 25%;
+   left:30%;
+}
+.fb-share{
+	width: 180px;
+	position: fixed;
+	top: 40%;
+	right: -120px;
+	transition: 1s;
+}
+.fb-share:hover{
+	right: 0px;
+	cursor :pointer;
+}
+.wht-share{
+	width: 180px;
+	position: fixed;
+	top: 40%;
+	right: -120px;
+	transition: 1s;
+	padding: 80px 0px;
+
+}
+.tw-share:hover{
+	right: 0px;
+	cursor :pointer;
+	}
+	.tw-share{
+	width: 180px;
+	position: fixed;
+	top: 40%;
+	right: -120px;
+	transition: 1s;
+	padding: 150px 00px;
+
+
+}
+
+.wht-share:hover{
+	right: 0px;
+	cursor :pointer;
+	}
+
+.pn-share:hover{
+	right: 0px;
+	cursor :pointer;
+	}
+	.pn-share{
+	width: 180px;
+	position: fixed;
+	top: 40%;
+	right: -120px;
+	transition: 1s;
+	padding: 220px 00px;
+
+
+}
+
+.in-share:hover{
+	right: 0px;
+	cursor :pointer;
+	}
+	.in-share{
+	width: 180px;
+	position: fixed;
+	top: 40%;
+	right: -120px;
+	transition: 1s;
+	padding: 280px 00px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.social-icons{
+	width: 100%;
+	padding:80px 0px;
+	text-align: center;
+}
+.social-icons li{
+	list-style: none;
+	display: inline-block;
+}
+.social-icons li a{
+	display: block;
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	border-radius: 100%;
+	margin: 0px 15px;
+	font-size: 30px;
+	background: #000;
+	color: #fff;
+	transition: 1s;
+}
+
+.social-icons li a:hover{
+   background: #777;
+   color: #000;
+  
+}
